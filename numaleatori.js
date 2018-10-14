@@ -1,9 +1,9 @@
 var temps= new Date();
 var num = prompt("Dame el numero");
-var aleatoris = new Array(500000);
+var aleatoris = new Array(1000000);
 var apareix= false;
 for (var i=0; i < aleatoris.length; i++){
-    aleatoris[i]=Math.round(Math.random()*500000);
+    aleatoris[i]=Math.round(Math.random()*1000000);
 }
 for (var i=0; i < aleatoris.length; i++){
     if (aleatoris[i]==num){
